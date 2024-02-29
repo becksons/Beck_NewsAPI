@@ -25,7 +25,7 @@ class ArticleViewModel : ViewModel() {
             try {
                 val response =
                     RetrofitInstance.api.fetchHeadlines(
-                    apiKey = "b095d35964cc4c02ad0c7212c51215dc",
+                    apiKey = "",
                     country = "us",
                     category=category
                 )
